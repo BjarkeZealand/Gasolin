@@ -4,6 +4,7 @@ namespace Gasolin
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Hold nu op hvor er jeg sulten");
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
@@ -19,6 +20,7 @@ namespace Gasolin
                 app.UseHsts();
             }
 
+          
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
