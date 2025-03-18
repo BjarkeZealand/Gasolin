@@ -4,6 +4,7 @@ namespace Gasolin
     {
         public static void Main(string[] args)
         {
+            //Meget sulten
             Console.WriteLine("Hold nu op hvor er jeg sulten");
             var builder = WebApplication.CreateBuilder(args);
 
