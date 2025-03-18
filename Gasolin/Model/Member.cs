@@ -10,7 +10,7 @@
 		public Member(string name,string imgPath)
 		{
 			Name = name;
-			ImgPath = imgPath
+			ImgPath = imgPath;
 		}
 		
 	}

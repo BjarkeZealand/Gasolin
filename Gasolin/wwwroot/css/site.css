@@ -3,25 +3,28 @@
 body 
 {
     height: 100vh;
+    background-color: black;
 }
 
 h1.centered-text {
-    text-align: center; 
-    border: 1px solid black;
-    background-color: darkslategrey;
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    color: #FFD700;
+    text-transform: uppercase;
+    text: center;
+    border: 1px solid;
     width: 255px;
 }
 
 main {
     width: 100%;
     height: 100%; 
-    background-color: lightgray;
+    background-color: darkgrey;
 }
 
  .pictures {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: 600px;
     display: block;
     margin-right: auto;
     margin-left: auto;
