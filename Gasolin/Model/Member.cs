@@ -5,10 +5,12 @@ public class Member
 	public Member()
 	{
 		public string Name { get; set; }
+	public string ImgPath { get; set; }
 
-		public Member (string name)
-		{
-			Name = name;
-		}
+
+	public Member(string name)
+	{
+		Name = name;
 	}
+}
 }
