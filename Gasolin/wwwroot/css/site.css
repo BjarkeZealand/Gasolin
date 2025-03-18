@@ -3,6 +3,7 @@
 body 
 {
     height: 100vh;
+    color:black;
 }
 
 h1.centered-text {
@@ -15,7 +16,7 @@ h1.centered-text {
 main {
     width: 100%;
     height: 100%; 
-    background-color: lightgray;
+    background-color: black;
 }
 
  .pictures {
