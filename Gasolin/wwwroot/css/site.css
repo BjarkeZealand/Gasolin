@@ -1,22 +1,31 @@
-html {
-  font-size: 14px;
+
+
+body 
+{
+    height: 100vh;
+    background-color: black;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+h1.centered-text {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    color: #FFD700;
+    text-transform: uppercase;
+    text: center;
+    border: 1px solid;
+    width: 255px;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+main {
+    width: 100%;
+    height: 100%; 
+    background-color: lightgray;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  margin-bottom: 60px;
+ .pictures {
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
