@@ -11,9 +11,8 @@ h1.centered-text {
     font-size: 4rem;
     color: #FFD700;
     text-transform: uppercase;
-    text: center;
-    border: 1px solid;
-    width: 255px;
+    text-align: center;
+    width: 100%;
 }
 
 main {
