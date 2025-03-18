@@ -21,6 +21,6 @@ public class IndexModel : PageModel
         members[1] = new Member("Franz Beckerlee", "franz-beckerlee.jpg", "Guitarist", 1942, 0);
         members[2] = new Member("Wili Jønsson", "wili-jønsson.jpg", "Bassist", 1942, 0);
         members[3] = new Member("Bjørn Uglebjerg", "bjørn-uglebjerg.jpg", "Trommeslager", 1948, 1994);
-        members[4] = new Member("Søren Berlev", "søren-berlev.jpg", "Trommeslager", 1950, 0);
+        members[4] = new Member("Søren Berlev", "soeren-berlev.jpg", "Trommeslager", 1950, 0);
     }
 }
