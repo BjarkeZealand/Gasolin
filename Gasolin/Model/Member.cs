@@ -27,7 +27,6 @@
 				YearOfDeath = yod.ToString();
 				Age = yod - yob;
 			}
-			
 		}
 	}
 }
