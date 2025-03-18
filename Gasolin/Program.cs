@@ -4,7 +4,7 @@ namespace Gasolin
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hold nu op hvor er Scott sulten");
+            
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
