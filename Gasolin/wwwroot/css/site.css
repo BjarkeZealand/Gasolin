@@ -7,6 +7,12 @@ body
     width: 100%;
 }
 
+@font-face {
+    font-family: 'nashirarough-regular_demo';
+    src: url('../fonts/nashirarough-regular_demo.otf') format('opentype');
+}
+
+
 h1.centered-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4rem;
@@ -379,8 +385,3 @@ body {
 }
 
 
-
-@font-face {
-    font-family: 'nashirarough-regular_demo';
-    src: url('../fonts/nashirarough-regular_demo.otf') format('opentype');
-}
