@@ -56,6 +56,8 @@ main {
        position: fixed;
        top: 0;
        z-index: 1030; /* to prevent the navbar getting covered up by other content */
+       background-color:black;
+       width:100%;
  }
 
 a1 {
