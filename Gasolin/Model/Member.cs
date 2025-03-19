@@ -1,4 +1,6 @@
-﻿namespace Gasolin.Model
+﻿using System.Security.Cryptography.X509Certificates;
+
+namespace Gasolin.Model
 { 
 
 	public class Member
@@ -9,9 +11,10 @@
 		public int YearOfBirth { get; set; }
 		public string YearOfDeath { get; set; }
 		public string BioLink { get; set; }
+		public string Bio { get; set; }
 		public int Age { get; set; }
 
-		public Member(string name,string imgPath, string role, int yob, int yod, string bioLink)
+		public Member(string name, string imgPath, string role, int yob, int yod, string bioLink)
 		{
 			Name = name;
 			ImgPath = imgPath;
@@ -30,5 +33,10 @@
 				Age = yod - yob;
 			}
 		}
+			public Member (string bio)
+		{
+			Bio = bio;
+		}
+		
 	}
 }
