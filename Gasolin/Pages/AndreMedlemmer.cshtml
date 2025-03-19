@@ -5,12 +5,13 @@
 
 
 <main>
-<div class="text-center">
+<div class="text-center bg-dark text-light">
     @for (int i = 1; i < Model.members.Length; i++)
     {
-        <div href="@Model.members[i].BioLink">
+        <div class="container-fluid mb-5 border-bottom border-3 border-warning" href="@Model.members[i].BioLink">
             <img class="img-fluid rounded" src="@Model.members[i].ImgPath">
             <h1 class="align-content-center">@Model.members[i].Name</h1>
+            <p>@Model.members[i].Bio</p>
         </div>
     }
 </div>
