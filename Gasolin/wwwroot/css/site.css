@@ -374,3 +374,10 @@ body {
                     display: none;
                 }
 }
+
+
+
+@font-face {
+    font-family: 'nashirarough-regular_demo';
+    src: url('../fonts/nashirarough-regular_demo.otf') format('opentype');
+}
