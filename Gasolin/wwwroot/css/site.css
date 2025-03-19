@@ -48,9 +48,15 @@ main {
     
 }
 .minMargin {
-    margin-left: 35%;
-    margin-right: 35%;
+    place-content: center; 
+    margin-left: 0%;
+    margin-right: 0%;
 }
+.header-navbar{
+       position: fixed;
+       top: 0;
+       z-index: 1030; /* to prevent the navbar getting covered up by other content */
+ }
 
 a1 {
     position: relative;
@@ -383,5 +389,4 @@ body {
                     display: none;
                 }
 }
-
 
