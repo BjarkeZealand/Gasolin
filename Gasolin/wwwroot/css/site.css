@@ -48,8 +48,9 @@ main {
     
 }
 .minMargin {
-    margin-left: 35%;
-    margin-right: 35%;
+    place-content: center; 
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .header-navbar{
        position: fixed;
