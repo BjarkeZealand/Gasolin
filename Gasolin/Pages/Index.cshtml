@@ -9,29 +9,29 @@
             <h1 class="centered-text bg-black">Masser Af Succes</h1>
 		<img class="pictures" img src= "~/pictures/gasolin final pic.jpg" />
             <div class="container-fluid">
-                <div class="card" style="display: mx-auto; width: 26rem;">
+                <div class="card mx-auto" style="width: 26rem;">
                     <img class="card-img-top" src="@Model.members[0].ImgPath" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">@Model.members[0].Name</h5>
+                        <a href="@Model.members[0].BioLink" class="btn btn-primary">@Model.members[0].Name</a>
                         <p class="text-dark"><i>@Model.members[0].Role</i></p>
                         <p class="card-text">@Model.members[0].YearOfBirth - @Model.members[0].YearOfDeath</p>
-                        <a href="KimLarsen" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
+            <div class="row justify-content-center">
                 @for (int i = 1; i < Model.members.Length; i++)
                 {
-                    <div class="card" style="display: inline-block; width: 18rem;">
+                    <div class="card mx-sm-auto" style="display: inline-block; width: 18rem;">
                         <img class="card-img-top" src="@Model.members[i].ImgPath" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">@Model.members[i].Name</h5>
+                            <a href="@Model.members[i].BioLink" class="btn btn-primary">@Model.members[i].Name</a>
                             <p class="text-dark"><i>@Model.members[i].Role</i></p>
                             <p class="card-text">@Model.members[i].YearOfBirth - @Model.members[i].YearOfDeath</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+
                         </div>
                     </div>
                 }
             </div>
+            </div>
     </main>
-  
-        </body> 
+</body> 
 
