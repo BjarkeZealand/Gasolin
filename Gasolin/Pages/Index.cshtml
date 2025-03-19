@@ -12,4 +12,17 @@
     </body> 
  </main>
 </div>
+
+@for (int i = 0; i < Model.members.Length; i++)
+{
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="@Model.members[i].ImgPath" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">@Model.members[i].Name</h5>
+            <p class="text-dark"><i>@Model.members[i].Role</i></p>
+            <p class="card-text">@Model.members[i].YearOfBirth - @Model.members[i].YearOfDeath</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+}
  
