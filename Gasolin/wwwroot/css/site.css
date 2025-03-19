@@ -28,8 +28,8 @@ main {
 }
 
 .pictures {
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -161,7 +161,7 @@ body {
     .timeline-row .timeline-content {
         position: relative;
         padding: 20px 30px;
-        background: #1a233a;
+        background: #212529;
         -webkit-border-radius: 4px;
         -moz-border-radius: 4px;
         border-radius: 4px;
@@ -178,7 +178,7 @@ body {
             top: 20px;
             height: 16px;
             width: 16px;
-            background: #1a233a;
+            background: #212529;
         }
 
         .timeline-row .timeline-content:before {
@@ -192,7 +192,7 @@ body {
             -moz-border-radius: 100px;
             border-radius: 100px;
             z-index: 10;
-            background: #272e48;
+            background: #212529;
             border: 2px dashed #4b546f;
         }
 
