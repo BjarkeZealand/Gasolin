@@ -1,15 +1,19 @@
 ﻿@page
-@model Gasolin.Pages.AndreMedlemmerModel
+@model Gasolin.Pages.IndexModel
 @{
 }
 
 
-
+<main>
 <div class="text-center">
-    <main>
-        <h1 class="align-content-center">Wili Jønsson</h1>
-        <img class= <img src="~/pictures/kim-larsen.jpg" /img>
-        <p>KIM LARSEN <a href="KimLarsen" </a>.</p>
-    </main>
+    @for (int i = 1; i < Model.members.Length; i++)
+    {
+        <div>
+            <h1 class="align-content-center">@Model.members[i].Name</h1>
+            <img class="img-fluid rounded" src="~/pictures/kim-larsen.jpg">
+            <p>KIM LARSEN</p>
+        </div>
+    }
 </div>
+</main>
 
