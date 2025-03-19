@@ -28,8 +28,8 @@ main {
 }
 
 .pictures {
-    width: 90%;
-    height: 500px;
+    width: 100%;
+    height: auto;
     display: block;
     margin-right: auto;
     margin-left: auto;

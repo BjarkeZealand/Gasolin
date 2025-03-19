@@ -8,10 +8,9 @@
 <div class="text-center">
     @for (int i = 1; i < Model.members.Length; i++)
     {
-        <div>
+        <div href="@Model.members[i].BioLink">
+            <img class="img-fluid rounded" src="@Model.members[i].ImgPath">
             <h1 class="align-content-center">@Model.members[i].Name</h1>
-            <img class="img-fluid rounded" src="~/pictures/kim-larsen.jpg">
-            <p>KIM LARSEN</p>
         </div>
     }
 </div>
