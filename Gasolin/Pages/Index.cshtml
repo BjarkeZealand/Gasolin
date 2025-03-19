@@ -9,8 +9,8 @@
         <h1 class="centered-text" >Masser Af Succes</h1>
 		<!---- <img class="smallpictures" <img src="~/pictures/masser af succes beskåret.png"-->
 		<img class="pictures" <img src="~/pictures/Gasolin_upscaled.png" />
-            <div class="container-fluid">
-                <div class="card mx-auto bg-dark text-light" style="width: 26rem;">
+            <div class="container-fluid text-center">
+                <div class="card mx-auto bg-dark text-light mb-4 pt-2" style="width: 26rem;">
                     <img class="card-img-top" src="@Model.members[0].ImgPath" alt="Card image cap">
                     <div class="card-body">
                         <a href="@Model.members[0].BioLink" class="btn btn-warning">@Model.members[0].Name</a>
@@ -18,18 +18,16 @@
                         <p class="card-text">@Model.members[0].YearOfBirth - @Model.members[0].YearOfDeath</p>
                     </div>
                 </div>
-			<p></p>
 
             <div class="row justify-content-center">
                 @for (int i = 1; i < Model.members.Length; i++)
                 {
-                    <div class="card mx-sm-auto bg-dark text-light mb-4 pt-3" style="display: inline-block; width: 18rem;">
+                    <div class="card mx-sm-auto bg-dark text-light mb-4 pt-2" style="display: inline-block; width: 18rem;">
                         <img class="card-img-top" src="@Model.members[i].ImgPath" alt="Card image cap">
                         <div class="card-body">
 							<a href="AndreMedlemmer/@Model.members[i].BioLink" class="btn btn-warning">@Model.members[i].Name</a>
                             <p class="text-light mt-3"><i>@Model.members[i].Role</i></p>
                             <p class="card-text">@Model.members[i].YearOfBirth - @Model.members[i].YearOfDeath</p>
-							
                         </div>
                     </div>
                 }
@@ -37,7 +35,6 @@
             </div>
 
     </main>
-	----------------------------------------------------------------------------------------------------------------------------------------------
 	<div class="container bg-black">
 		<div class="timeline bg-black">
 			<div class="timeline-row">
@@ -83,8 +80,8 @@
 			<div class="timeline-row">
 				<div class="timeline-time text-warning">1978</div>
 				<div class="timeline-content">
-					<h4 style="color:white;">Bandet når sit højdepunkt med albummet "Gas 5"</h4>
-					<p style="color:white;">"Gas 5" indeholder hits som "Vilde kaniner" og "Kvinde min".</p>
+					<h4 style="color:white;">Bandet når sit højdepunkt</h4>
+					<p style="color:white;">"Gas 5" udkommer og indeholder bl.a. hits som "Vilde kaniner" og "Kvinde min".</p>
 				</div>
 			</div>
 
