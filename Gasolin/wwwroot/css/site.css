@@ -270,8 +270,8 @@ body {
 
         .timeline-row .timeline-content h4 {
             margin: 0 0 20px 0;
-            overflow: hidden;
-            white-space: nowrap;
+            overflow: visible;
+            
             text-overflow: ellipsis;
             line-height: 150%;
         }
