@@ -4,10 +4,8 @@
 }
 
 
-<main class="bg-black">
-    <div class="ratio ratio-16x9 mb-5 border-botton border-3 border-warning">
-        <iframe src="https://www.youtube.com/embed/J8t_9A8SeyY?si=poQi_Vmo7iVTXcvj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+<main class="bg-black mt-5">
+
 <div class="text-center bg-dark text-light">
     @for (int i = 1; i < Model.members.Length; i++)
     {
@@ -18,6 +16,9 @@
             <p>@Model.members[i].Bio</p>
         </div>
     }
+    <div class="ratio ratio-16x9 mb-2">
+        <iframe src="https://www.youtube.com/embed/J8t_9A8SeyY?si=poQi_Vmo7iVTXcvj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </div>
 </main>
 
