@@ -9,8 +9,8 @@
     @for (int i = 1; i < Model.members.Length; i++)
     {
         <div class="container-fluid mb-5 border-bottom border-3 border-warning">
-            <a id="#@Model.members[i].BioLink"></a>
-            <img class="container" style="max-width: 600px;" src="@Model.members[i].ImgPath" />
+            <a id="@Model.members[i].BioLink"></a>
+                <img class="container" style="max-width: 600px;" src="~/pictures/@Model.members[i].ImgPath" />
             <h1 class="align-content-center">@Model.members[i].Name</h1>
             <p>@Model.members[i].Bio</p>
         </div>
