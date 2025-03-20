@@ -440,13 +440,7 @@ body {
 
 
 
-.header-navbar {
 
-
-    z-index: 1030; /* to prevent the navbar getting covered up by other content */
-    width: 100%;
-    background-color:
-}
 
 
 
@@ -458,24 +452,27 @@ ul.topnav {
     position: fixed;
     z-index: 1030; /* to prevent the navbar getting covered up by other content */
     margin-left: 0%;
+    padding: 0;
     width: 100%;
-    padding-left: 20%;
-    padding-right:20%;
     display: flex;
     overflow: hidden;
     justify-content: space-between;
     background-color: #333;
+    flex: 0 1 calc(33.33% - 20%);
 }
+
 
     ul.topnav li {
         float: left;
+
     }
 
         ul.topnav li a {
             display: block;
-            padding-left: 0;
+            margin-left:10%;
+            margin-right:10%;
             color: white;
-            margin-left:0;
+            margin-left: 0;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
@@ -492,10 +489,3 @@ ul.topnav {
         ul.topnav li.right {
             float: right;
         }
-
-@media screen and (max-width: 600px) {
-    ul.topnav li.right,
-    ul.topnav li {
-        float: none;
-    }
-}
