@@ -24,6 +24,19 @@ h1.centered-text {
     text-shadow: 0 0 5px #ff4b2b, 0 0 10px #ff416c, 0 0 20px #ff4b2b; 
     
 }
+h2.introduction {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+
+}
+
+h3.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
 
 
 main {
@@ -52,13 +65,7 @@ main {
     margin-left: 0%;
     margin-right: 0%;
 }
-.header-navbar{
-       position: fixed;
-       top: 0;
-       z-index: 1030; /* to prevent the navbar getting covered up by other content */
-       background-color:black;
-       width:100%;
- }
+
 
 
 a1 {
@@ -393,3 +400,102 @@ body {
                 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-navbar {
+
+
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+    width: 100%;
+    background-color:
+}
+
+
+
+
+
+ul.topnav {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+    margin-left: 0%;
+    width: 100%;
+    padding-left: 20%;
+    padding-right:20%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+    ul.topnav li {
+        float: left;
+    }
+
+        ul.topnav li a {
+            display: block;
+            padding-left: 0;
+            color: white;
+            margin-left:0;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul.topnav li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            ul.topnav li a.active {
+                background-color: #04AA6D;
+            }
+
+        ul.topnav li.right {
+            float: right;
+        }
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {
+        float: none;
+    }
+}
