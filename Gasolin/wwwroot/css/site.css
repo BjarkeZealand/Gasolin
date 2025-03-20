@@ -24,6 +24,19 @@ h1.centered-text {
     text-shadow: 0 0 5px #ff4b2b, 0 0 10px #ff416c, 0 0 20px #ff4b2b; 
     
 }
+h2.introduction {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-weight: bold; 
+
+}
+
+h3.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
 
 
 main {
