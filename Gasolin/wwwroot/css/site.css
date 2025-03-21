@@ -469,10 +469,9 @@ ul.topnav {
 
         ul.topnav li a {
             display: block;
-            margin-left:10%;
-            margin-right:10%;
             color: white;
             margin-left: 0;
+            text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
