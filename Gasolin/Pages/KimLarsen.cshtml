@@ -7,13 +7,13 @@
 
 
 <body>
-    <main class="bg-dark text-light text-center">
+    <main class="bg-dark mt-5 text-light text-center">
         <h1 class="align-content-center">Gasolin</h1>
-        <img class="img-fluid rounded" src="@Model.members[0].ImgPath">
+        <img class="img-fluid rounded" src="~/pictures/@Model.members[0].ImgPath">
         <h1>KIM LARSEN</h1>
         <p>@Model.members[0].Bio</p>
-    <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zz209RdV9kk?si=Irh-VoFpJh3ChvTC&amp;start=57" allowfullscreen=""></iframe>
+    <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/zz209RdV9kk?si=Irh-VoFpJh3ChvTC&amp;start=57" allowfullscreen=""></iframe>
     </div>
     </main>
 </body>

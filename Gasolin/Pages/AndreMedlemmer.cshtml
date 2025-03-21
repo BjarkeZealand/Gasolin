@@ -4,17 +4,21 @@
 }
 
 
-<main>
+<main class="bg-black mt-5">
+
 <div class="text-center bg-dark text-light">
     @for (int i = 1; i < Model.members.Length; i++)
     {
-        <div class="container-fluid mb-5 border-bottom border-3 border-warning">
-            <a id="#@Model.members[i].BioLink"></a>
-            <img class="container" style="max-width: 600px;" src="@Model.members[i].ImgPath" />
+            <div id="@Model.members[i].BioLink" class="container-fluid, scroll, mb-2 pt-3 border-top border-bottom border-3 border-warning">
+            <a ></a>
+                <img class="container" style="max-width: 600px;" src="~/pictures/@Model.members[i].ImgPath" />
             <h1 class="align-content-center">@Model.members[i].Name</h1>
             <p>@Model.members[i].Bio</p>
         </div>
     }
+    <div class="ratio ratio-16x9 mb-2">
+        <iframe src="https://www.youtube.com/embed/J8t_9A8SeyY?si=poQi_Vmo7iVTXcvj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
 </div>
 </main>
 

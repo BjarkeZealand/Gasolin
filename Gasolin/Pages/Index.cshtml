@@ -4,7 +4,7 @@
     ViewData["Title"] = "Home page";
 }
 
-<body class="bg-black">
+<body class="bg-black mt-5">
     <main class="bg-black">
         <h1 class="centered-text">Masser Af Succes</h1>
 		<!---- <img class="smallpictures" <img src="~/pictures/masser af succes beskåret.png"-->
@@ -24,11 +24,11 @@
                 <div  class="card mx-auto bg-dark text-light mb-4 pt-2" style="max-width: 32rem;">
 				<img class="card-img-top" src="~/pictures/@Model.members[0].ImgPath" alt="Card image cap">
 					<div  class="card-body">
-                        <a href="@Model.members[0].BioLink" class="btn btn-warning">@Model.members[0].Name</a>
+                        <a asp-page="KimLarsen" class="btn btn-warning">@Model.members[0].Name</a>
                         <p class="text-light mt-3"><i>@Model.members[0].Role</i></p>
                         <p class="card-text">@Model.members[0].YearOfBirth - @Model.members[0].YearOfDeath</p>
                     </div>
-                </div>
+                </div>3
 
             <div class="row justify-content-center" >
                 @for (int i = 1; i < Model.members.Length; i++)
@@ -36,7 +36,7 @@
                     <div class="card mx-sm-auto bg-dark text-light mb-4 pt-2" style="display: inline-block; width: 16rem;">
 						<img class="card-img-top" src="~/pictures/@Model.members[i].ImgPath" alt="Card image cap">
                         <div class="card-body">
-							<a href="AndreMedlemmer#@Model.members[i].BioLink" class="btn btn-warning">@Model.members[i].Name</a>
+								<a href="AndreMedlemmer#@Model.members[i].BioLink" class="btn btn-warning">@Model.members[i].Name</a>
                             <p class="text-light mt-3"><i>@Model.members[i].Role</i></p>
                             <p class="card-text">@Model.members[i].YearOfBirth - @Model.members[i].YearOfDeath</p>
                         </div>
@@ -45,6 +45,11 @@
             </div>
             </div>
     </main>
+	<!--Interview -->
+
+	<div class="ratio ratio-16x9">
+		<iframe src="https://www.youtube.com/embed/lR-Ti771_gY?si=R5y89cL9ONXp95R3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
 
 	<div class="container bg-black">
 		<div id="timeline" class="timeline bg-black">

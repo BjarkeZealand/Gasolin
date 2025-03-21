@@ -11,7 +11,9 @@ body
     font-family: 'nashirarough-regular_demo';
     src: url('../fonts/nashirarough-regular_demo.otf') format('opentype');
 }
-
+div.scroll{
+    scroll-margin-top:1000px;
+}
 
 h1.centered-text {
     font-family: "nashirarough-regular_demo";
@@ -65,14 +67,7 @@ main {
     margin-left: 0%;
     margin-right: 0%;
 }
-.header-navbar{
-       position: fixed; 
-       top: 0;
-       z-index: 1030; /* to prevent the navbar getting covered up by other content */
-       background-color:black;
-       width:100%;
-       margin-left: 5%; 
- }
+
 
 
 a1 {
@@ -407,3 +402,93 @@ body {
                 }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul.topnav {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
+    margin-left: 0%;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #333;
+}
+
+
+    ul.topnav li {
+        float: left;
+
+    }
+
+        ul.topnav li a {
+            display: block;
+            color: white;
+            margin-left: 0;
+            text-align: center;
+            padding-top:14px;
+            padding-bottom: 14px;
+            padding-right:10px;
+            padding-left:10px;
+            text-decoration: none;
+            text-size-adjust:auto;
+        }
+
+            ul.topnav li a:hover:not(.active) {
+                background-color: #111;
+            }
+
+            ul.topnav li a.active {
+                background-color: #04AA6D;
+            }
+
+        ul.topnav li.right {
+            float: right;
+        }
