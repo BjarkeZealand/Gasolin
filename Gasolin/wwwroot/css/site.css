@@ -11,7 +11,9 @@ body
     font-family: 'nashirarough-regular_demo';
     src: url('../fonts/nashirarough-regular_demo.otf') format('opentype');
 }
-
+div.scroll{
+    scroll-margin-top:1000px;
+}
 
 h1.centered-text {
     font-family: "nashirarough-regular_demo";
